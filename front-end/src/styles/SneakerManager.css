@@ -1,0 +1,67 @@
+.sneaker-manager {
+    padding: 20px;
+}
+
+.sneaker-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sneaker-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sneaker-form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sneaker-form button:hover {
+    background-color: #218838;
+}
+
+.sneaker-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sneaker-table th, .sneaker-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.sneaker-table th {
+    background-color: #f2f2f2;
+}
+
+.sneaker-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.sneaker-table button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.sneaker-table button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
